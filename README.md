@@ -44,3 +44,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Task
+
+Az alábbi kép alapján készítsd el a felületet AngularJS, hyperapp vagy React framework használatával és töltsd fel valahova, vagy küldd vissza e-mailben!
+
+a) logót, az illusztrációt valamint a háttérhez használt képet tetszőlegesen helyettesítsd be
+
+b) betűtípus: Roboto
+
+c) színkódok:
+
+#31363c
+#29a98b; #20876f; #186553;
+#682c5d
+d) a gombot lehetőség szerint szervezd ki egy komponensbe, illetve kattintásra írjon valamit a console-ra
+
+e) minden más (elhelyezés, méretezés, margin, padding…stb.) rád van bízva, légy kreatív és munkádra igényes! slightly smiling face
