@@ -13,7 +13,7 @@ export default function Home() {
         </div>
 
         {/* Left Text */}
-        <div className="space-y-4 pt-16 md:pt-0 flex flex-col items-start md:items-start md:ml-8 md:pb-64">
+        <div className="space-y-4 pt-16 md:pt-0 flex flex-col items-start md:items-start md:ml-8 pb-0 md:pb-64">
           <h1 className="text-3xl md:text-6xl font-bold text-accentGreen-dark">
             Comnica Signature
           </h1>
@@ -23,9 +23,11 @@ export default function Home() {
         </div>
 
         {/* Hero Image */}
-        <div className="flex-1 hidden md:flex items-center justify-center">
-          <img src={hero} alt="Hero" className="w-full md:w-auto" />
-        </div>
+        <img
+          src={hero}
+          alt="Hero"
+          className="w-1/2 lg:w-96 content-center mx-auto"
+        />
       </div>
 
       {/* Right Side */}
