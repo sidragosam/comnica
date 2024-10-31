@@ -1,13 +1,14 @@
 import Button from "./Button";
 import logo from "../assets/images/comnica-logo.png";
+import hero from "../assets/images/hero.png";
 
 export default function Home() {
   return (
     <div className="relative flex flex-col md:flex-row h-screen w-full bg-accentGreen bg-opacity-40 overflow-hidden">
       {/* Left Side */}
-      <div className="relative z-10 flex-1 flex flex-col items-start justify-center p-6 md:p-8 space-y-6 md:w-2/3">
+      <div className="relative z-10 flex-1 flex flex-col md:flex-row items-start md:items-center justify-center p-6 md:p-8 space-y-6 md:space-y-0 md:space-x-6 md:w-2/3">
         {/* Logo */}
-        <div className="absolute top-4 left-4 md:top-6 md:left-6">
+        <div className="absolute top-4 left-4 md:top-8 md:left-8">
           <img src={logo} alt="Logo" className="h-6 md:h-8" />
         </div>
 
@@ -19,6 +20,11 @@ export default function Home() {
           <p className="text-base md:text-2xl font-bold text-primaryDark">
             Digitális aláíró szolgáltatás a Comnicától
           </p>
+        </div>
+
+        {/* Hero Image */}
+        <div className="flex-1 hidden md:flex items-center justify-center">
+          <img src={hero} alt="Hero" className="w-full md:w-auto" />
         </div>
       </div>
 
